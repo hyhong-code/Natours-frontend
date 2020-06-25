@@ -1,0 +1,19 @@
+/* BASIC RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html {
+  /* Root font size */
+  font-size: 62.5%;
+}
+
+/* Font related properties are usually inherited */
+body {
+  box-sizing: border-box;
+}
